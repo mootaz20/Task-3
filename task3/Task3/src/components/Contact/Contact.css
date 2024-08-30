@@ -1,0 +1,103 @@
+.contact .background{
+    background-image: url(/src/images/contact-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 550px;
+	position: absolute;
+    z-index: -10;
+	width: 100%;
+}
+.contact .contact-info{
+    padding: 100px 0 120px 0;
+}
+.contact .contact-info .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact .contact-info .container .heading p{
+    color: orangered;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.contact .contact-info .container .heading p span{
+    font-size: 20px;
+}
+.contact .contact-info .container .heading h1{
+    width: 29%;
+    line-height: 50px;
+    margin: 30px auto 80px;
+    color: white;
+    font-size: 40px;
+}
+.contact .contact-info .container .info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact .contact-info .container .info .map{
+    min-width: 58.4%;
+    height: 540px;
+    padding: 2px;
+}
+.contact .contact-info .container .info .map .contactCards{
+    max-width: 650px;
+    margin-top: 40px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact .contact-info .container .info .map .contactCards .contactCard{
+    width: 50%;
+}
+.contact .contact-info .container .info .map .contactCards .contactCard:last-child{
+    align-self: end;
+}
+.contact .contact-info .container .info .form{
+    min-width: 41%;
+    height: 687px;
+    padding: 0 10px 0 40px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact .contact-info{
+        padding: 100px 10px 250px;
+    }
+    .contact .contact-info .container .heading h1{
+        width: 100%;
+    }
+    .contact .contact-info .container .info .map{
+        width: 100%;
+    }
+    .contact .contact-info .container .info .map .contactCards{
+        width: 100%;
+        padding: 0 0 0 10px;
+    }
+    .contact .contact-info .container .info .map .contactCards .contactCard{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .contact .contact-info .container .info .form{
+        width: 100%;
+        margin-top: 400px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 420px) {
+    .contact .contact-info{
+        padding: 100px 10px 250px;
+    }
+    .contact .contact-info .container .heading h1{
+        width: 100%;
+    }
+    .contact .contact-info .container .info .map .contactCards{
+        width: 100%;
+    }
+    .contact .contact-info .container .info .form{
+        width: 100%;
+        margin-top: 400px;
+    }
+}

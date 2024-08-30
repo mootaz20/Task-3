@@ -1,0 +1,83 @@
+.propertiesCard{
+    max-width: 370px ;
+    height: 611px;
+}
+.propertiesCard .propertiesItem{
+    max-width: 356px ;
+    height: 581px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+.propertiesCard .propertiesItem img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.propertiesCard .propertiesItem .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.propertiesCard .propertiesItem .price p{
+    padding: 0 12px;
+    height: 31px;
+    background-color: rgba(255, 192, 203, 0.605);
+    border-radius: 10px;
+    line-height: 31px;
+    text-align: center;
+    font-weight: 500;
+}
+.propertiesCard .propertiesItem .price h6{
+    font-size: 25px;
+    color: orangered;
+    font-weight: bold;
+}
+.propertiesCard .propertiesItem a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+.propertiesCard .propertiesItem .features ul{
+    margin-top: 20px;
+    padding:  0 0 20px 5px;
+    list-style: none;
+    text-align: left;
+    line-height: 26px;
+    border-bottom: 1px solid #7a79794c;
+}
+.propertiesCard .propertiesItem .features ul li{
+    display: inline-block;
+    font-size: 19px;
+    margin-right: 20px;
+    color: #212529ab;
+}
+.propertiesCard .propertiesItem .features ul li span{
+    color: black;
+}
+.propertiesCard .propertiesItem button{
+    width: 170px;
+    height: 40px;
+    margin-top: 27px;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.propertiesCard .propertiesItem button:hover{
+    background-color: orangered;
+}
+@media screen and (max-width: 880px) {
+    .propertiesCard{
+        margin: 0 auto;
+    }
+}

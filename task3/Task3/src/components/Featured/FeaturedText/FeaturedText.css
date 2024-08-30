@@ -1,0 +1,70 @@
+.featuredText{
+    width: 475px;
+    min-height: 554px;
+    padding: 0 18px;
+}
+.featuredText h3{
+    color: orangered;
+    font-weight: bold;
+}
+.featuredText h3 span{
+    font-size: 20px;
+}
+.featuredText .header{
+    margin-top: 25px;
+}
+.featuredText .header h1{
+    font-size: 45px;
+    color: black;
+}
+.featuredText .accordions{
+    margin-top: 55px;
+    border-radius: 12px;
+    padding: 2px;
+    background-color: #FAFAFA;
+}
+.featuredText .accordions .accordion{
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 15px;
+    background-color: #FAFAFA;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 1s;
+}
+.featuredText .accordions .border{
+    border-bottom: 1px solid rgb(229, 228, 228) !important;
+}
+.featuredText .accordions .is-open{
+    color: orangered;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+.featuredText .accordions .accordion-content{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 18px;
+    max-height: 0;
+    overflow: hidden;
+}
+.featuredText .accordions .accordion-content a{
+    text-decoration: none;
+    color: blue;
+}
+@media screen and (max-width: 1024px) {
+    .featuredText{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width : 414px) {
+    .featuredText{
+        width: 100%;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.banner .background{
+    background-image: url('/src/images/page-heading-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner .background .content p{
+    display: inline-block;
+    height: 40px;
+    padding: 0 33px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: rgb(44, 44, 44);
+    background-color: white;
+}
+.banner .background .content h1{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}

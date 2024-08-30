@@ -1,0 +1,106 @@
+.bestDeal{
+    margin: 100px 0 0;
+    padding: 120px 0;
+    background-color: #FAFAFA;
+}
+.bestDeal .container{
+    max-width: 1140px;
+    min-height: 687px;
+    margin: 0 auto;
+}
+.bestDeal .container .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.bestDeal .container .text .textContent{
+   width: 50%;
+}
+.bestDeal .container .text .textContent p{
+    color: orangered;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bestDeal .container .text .textContent p span{
+    font-size: 20px;
+}
+.bestDeal .container .text .textContent h6{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+    display: inline-block;
+    width: 61%;
+    color: black;
+}
+.bestDeal .container .text .buttons{
+    min-width: 50%;
+    padding-left:  58px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bestDeal .container .text .buttons button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+    color: white;
+    padding: 0 25px;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    border: none;
+}
+.bestDeal .container .text .buttons button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.bestDeal .container .text .buttons button.active{
+    background-color: orangered;
+    cursor: pointer;
+    border: none;
+}
+.animation{
+    animation: opacityAnimation 1s ease-in;
+}
+@keyframes opacityAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@media screen and (max-width: 1120px) {
+    .bestDeal{
+        padding: 0 20px;
+        overflow-x: hidden;
+    }
+    .bestDeal .container .text .buttons{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 820px) {
+    .bestDeal{
+        margin-bottom: 0;
+        padding: 80px 10px 0;
+    }
+    .bestDeal .container .text .textContent{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+     }
+     .bestDeal .container .text .textContent h6{
+        width: 100%;
+     }
+     .bestDeal .container .text .buttons{
+       width: 100%;
+       padding: 0;
+    }
+    .bestDeal .container .text .buttons button{
+        width: 120px;
+        padding: 0 15px;
+    }
+}

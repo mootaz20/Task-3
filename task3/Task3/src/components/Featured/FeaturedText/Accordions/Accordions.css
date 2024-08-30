@@ -1,0 +1,37 @@
+.accordions{
+    margin-top: 55px;
+    border-radius: 12px;
+    padding: 2px;
+    background-color: #FAFAFA;
+}
+.accordions .accordion{
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 15px;
+    background-color: #FAFAFA;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.accordions .border{
+    border-bottom: 1px solid rgb(229, 228, 228) !important;
+}
+.accordions .is-open{
+    color: orangered;
+    margin-bottom: 20px;
+}
+.accordions .accordion-content{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease; 
+}
+.accordions .accordion-content a{
+    text-decoration: none;
+    color: blue;
+}

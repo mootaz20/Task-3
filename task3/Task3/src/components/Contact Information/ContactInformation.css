@@ -1,0 +1,63 @@
+.border-Bottom{
+    border-bottom: solid 2px rgba(185, 184, 184, 0.705);
+}
+.contactInfo{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+}
+.contactInfo .location{
+    display: flex;
+    padding: 5px 0;
+}
+.contactInfo .location .flex{
+    display: flex;
+    padding: 0 25px 0 0;
+}
+.contactInfo .location .flex:last-child{
+    display: flex;
+    padding: 0 25px;
+}
+.contactInfo .location .line{
+    border-right: solid 1px rgba(84, 84, 84, 0.407);
+}
+.contactInfo .location .flex p{
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 2px 0;
+}
+.contactInfo .icons ul{
+    display: flex;
+}
+.contactInfo .icons ul li{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: rgb(182, 182, 182);
+    border-radius: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding: 2px 1px;
+    transition: all 1s;
+}
+.contactInfo .icons ul li:not(:last-child){
+    margin-right: 20px;
+}
+.contactInfo .icons ul li:last-child{
+    margin-right: 4px;
+}
+.contactInfo .icons ul li a{
+    color: white;
+}
+.contactInfo .icons ul li:hover{
+    background-color: orangered;
+}
+
+@media screen and (max-width: 1120px) {
+  .border-Bottom{
+    display: none;
+  }
+}

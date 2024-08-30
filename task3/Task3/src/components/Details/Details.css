@@ -1,0 +1,63 @@
+.details{
+    margin-top: 120px;
+}
+.details .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.details .container .photoAndDesc{
+    width: 760px;
+    padding: 0 5px 0 5px;
+}
+.details .container .photoAndDesc img{
+    width: 100%;
+    height: 410px;
+    
+}
+.details .container .photoAndDesc span{
+    display: block;
+    width: 12%;
+    padding: 5px;
+    margin: 40px 0 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.744);
+    font-weight: 500;
+}
+.details .container .photoAndDesc h2{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(88, 88, 88, 0.269);
+    margin-bottom: 40px;
+}
+.details .container .photoAndDesc p{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.637);
+}
+.details .container .photoAndDesc p a{
+    text-decoration: none;
+    color: blue;
+}
+.details .container .cards{
+    width: 380px;
+    padding: 0 0 0 55px;
+}
+@media screen and (max-width: 1120px) {
+    .details .container .photoAndDesc{
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .details .container .photoAndDesc span{
+        width: 30%;
+    }
+    .details .container .cards{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+    }
+}
+

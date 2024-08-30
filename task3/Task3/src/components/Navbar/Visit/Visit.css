@@ -1,0 +1,34 @@
+.visit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 1, 43);
+    border-radius: 20px;
+    color: white;
+    width: 190px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.visit .iconDiv {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+.visit .iconDiv:hover {
+    cursor: pointer;
+}
+
+.icon {
+    display: none;
+    border: none;
+    background-color: white;
+}
+.icon:hover {
+    color: orangered;
+    cursor: pointer;
+}

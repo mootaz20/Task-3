@@ -1,0 +1,82 @@
+.ContactUsFirstSections{
+    margin: 120px 0;
+}
+.ContactUsFirstSections .container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.ContactUsFirstSections .container .contactInfo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText{
+    width: 50%;
+    padding: 0 3px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText p:first-child{
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText p:first-child span{
+    font-size: 20px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText h1{
+    width: 50%;
+    font-size: 40px;
+    color: black;
+    margin: 20px 0 40px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText p{
+    color: rgba(0, 0, 0, 0.854);
+    line-height: 25px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText .cards{
+    width: 71.333%;
+    margin-top: 60px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsText .cards .conatctUsCard{
+    margin-bottom: 30px;
+}
+.ContactUsFirstSections .container .contactInfo .contactUsForm{
+    width: 50%;
+    padding: 0 10px 0 40px;
+}
+.ContactUsFirstSections .container .map{
+    padding: 10px;
+    margin-top: 60px;
+    padding: 0 12px;
+}
+@media screen and (max-width: 1024px) {
+    .ContactUsFirstSections .container .contactInfo .contactUsText{
+        width: 100%;
+        text-align: center;
+    }
+    .ContactUsFirstSections .container .contactInfo .contactUsText h1{
+        width: 100%;
+    }
+    .ContactUsFirstSections .container .contactInfo .contactUsForm{
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .ContactUsFirstSections .container .contactInfo .contactUsText .cards{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0 0 0 10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .ContactUsFirstSections .container .contactInfo .contactUsText{
+        width: 100%;
+    }
+    .ContactUsFirstSections .container .contactInfo .contactUsText h1{
+        width: 100%;
+    }
+    .ContactUsFirstSections .container .contactInfo .contactUsForm{
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+}

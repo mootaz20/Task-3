@@ -1,0 +1,47 @@
+.featuredPhoto{
+    width: 380px;
+    min-height: 553px;
+    position: relative;
+    padding-left: 60px;
+    overflow: hidden;
+}
+.featuredPhoto .img{
+    width: 315px;
+    height: 415px;
+}
+.featuredPhoto a{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    padding: 25px 0 0 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
+@media screen and (max-width: 1024px) {
+    .featuredPhoto{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .featuredPhoto .img{
+        width: 70%;
+        height: 70%;
+    }
+    .featuredPhoto a{
+        left: 15%;
+        top: 60%;
+    }
+}
+@media screen and (max-width : 420px) {
+    .featuredPhoto{
+        width: 100%;
+    }
+    .featuredPhoto a{
+        top: 350px;
+        left: 40px;
+    }
+}

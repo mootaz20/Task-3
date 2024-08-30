@@ -1,0 +1,47 @@
+.counter{
+    width: 380px;
+    margin: 0 0 40px 0;
+}
+.counter .counterDiv{
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    margin: 0 auto;
+    padding: 20px 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter .counterDiv::after{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+.counter .counterDiv h2{
+    margin-right: 25px;
+    font-size: 40px;
+    color: orangered;
+    font-weight: bold;
+}
+.counter .counterDiv p{
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+    vertical-align: middle;
+}
+@media screen and (max-width: 820px) {
+    .counter{
+        padding: 0;
+    }
+    .counter .counterDiv{
+        margin: 0 auto;
+    }
+}
